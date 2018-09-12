@@ -1,0 +1,32 @@
+{
+  "name": "iosguidetopdf",
+  "version": "0.0.1",
+  "description": "save iOS Programming Guide as a pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potato04/iOSGuideToPdf.git"
+  },
+  "keywords": [
+    "iOS",
+    "Programming",
+    "Guide",
+    "pdf"
+  ],
+  "author": "potato04",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potato04/iOSGuideToPdf/issues"
+  },
+  "homepage": "https://github.com/potato04/iOSGuideToPdf#readme",
+  "dependencies": {
+    "easy-pdf-merge": "^0.2.0",
+    "puppeteer": "^1.7.0"
+  },
+  "bin":{
+    "iosguidetopdf": "./bin/cli.js"
+  }
+}
